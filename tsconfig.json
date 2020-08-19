@@ -1,0 +1,10 @@
+
+{
+	"compilerOptions": {
+    "jsx": "react",
+    "module": "es6",
+    // react是commonjs写的, 它没有export default, 所以只能用import * as React from 'react'来引入react
+    // 而开启allowSyntheticDefaultImports, 就可以用import React from 'react'来导入react了
+    "allowSyntheticDefaultImports": true
+	}
+}
